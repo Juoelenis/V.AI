@@ -72,6 +72,7 @@ def message_handler(
 
     return responses.Response()
 
+# That's all i needed to destry my day
 
 @APP.post("/" + BOT_URL)
 async def ai_talk_bot(
@@ -91,7 +92,7 @@ def enabled_handler(enabled: bool, nc: NextcloudApp):
     except Exception as e:
         return str(e)
     return ""
-
+# YE YE YE, get'em up! 
 
 if __name__ == "__main__":
     run_app("main:APP", log_level="trace")
